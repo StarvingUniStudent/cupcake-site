@@ -28,6 +28,91 @@ a {
 }
 
 body {
+  color: var(--black);
   margin: 0 auto;
   max-width: 393px;
 }
+
+/* Nav */
+
+nav {
+  align-items: center;
+  background: var(--red);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav img {
+  max-width: 40px;
+}
+
+#nav-logo img {
+  max-width: 155px;
+}
+
+/* Menu Bar List - Hidden for Now */
+.menu-list {
+  display: none;
+}
+
+/* Homepage */
+
+main {
+  background-color: var(--white);
+  padding: 0 25px;
+  padding-bottom: 50px;
+}
+
+/* Featured Cupcake Image */
+#featured-image img {
+  max-width: 320px;
+}
+
+#featured-image {
+  text-align: center;
+}
+
+.hero-page h1,
+.hero-page h2 {
+  padding-block: 25px;
+}
+
+.hero-page h3 {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.hero-page p {
+  line-height: 24px;
+}
+
+.hero-page a {
+  background-color: var(--indigo);
+  border-radius: 8px;
+  color: var(--white);
+  padding: 12px 30px;
+  text-decoration: none;
+}
+
+#featured-button {
+  margin-top: 25px;
+  text-align: center;
+}
+
+#cupcakes-button-container {
+  padding-top: 15px;
+  text-align: center;
+}
+
+#cupcakes-button {
+  background-color: unset;
+  color: var(--indigo);
+  padding: 0;
+  text-decoration: underline;
+}
+
+
+
