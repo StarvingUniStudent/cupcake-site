@@ -52,7 +52,7 @@ nav img {
 }
 
 /* Menu Bar List - Hidden for Now */
-.menu-list {
+.hidden {
   display: none;
 }
 
@@ -61,7 +61,6 @@ nav img {
 main {
   background-color: var(--white);
   padding: 0 25px;
-  padding-bottom: 50px;
 }
 
 /* Featured Cupcake Image */
@@ -89,7 +88,8 @@ main {
   line-height: 24px;
 }
 
-.hero-page a {
+.hero-page a,
+.cupcake-order a {
   background-color: var(--indigo);
   border-radius: 8px;
   color: var(--white);
@@ -117,6 +117,7 @@ main {
 footer {
   background-color: var(--black);
   color: var(--white);
+  margin-top: 25px;
   text-align: center;
 }
 
@@ -162,5 +163,26 @@ footer {
   padding-bottom: 8px;
 }
 
+/* Cupcake (Single) Page */
 
+.cupcake-order-image {
+  padding-block: 25px;
+  text-align: center;
+}
 
+.cupcake-order img{
+  max-width: 320px;
+}
+
+.cupcake-order h2 {
+  padding-bottom: 10px;
+}
+
+.cupcake-order p {
+  line-height: 22px;
+}
+
+/* Fix Margin Collpase */
+.cupcake-order #featured-button {
+  margin-bottom: 45px;
+}
