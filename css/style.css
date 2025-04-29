@@ -52,8 +52,31 @@ nav img {
 }
 
 /* Menu Bar List - Hidden for Now */
+
+.menu-list {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 65vw;
+  height: 100vh;
+  background-color: var(--red);
+  color: white;
+}
+
+.menu-list a {
+  padding-left: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  max-width: 180px;
+  text-decoration: none;
+  color: var(--white);
+}
+
 .hidden {
-  display: none;
+ display: none;
 }
 
 /* Homepage */
